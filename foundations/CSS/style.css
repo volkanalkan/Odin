@@ -1,0 +1,144 @@
+* {
+    color: purple;
+}
+
+div {
+    color: white;
+}
+
+.alert-text {
+    color: red;
+}
+
+#title {
+    background-color: red;
+}
+
+.read,
+.unread {
+  color: white;
+  background-color: black;
+}
+
+.read {
+  /* several unique declarations */
+}
+
+.unread {
+  /* several unique declarations */
+}
+
+.subsection.header {
+    color: red;
+}
+
+.subsection#preview {
+    color: blue;
+}
+
+.ancestor .contents {
+    /* some declarations */
+  }
+
+  p {
+    /* hex example: */
+    color: #1100ff;
+  }
+  
+  p {
+    /* rgb example: */
+    color: rgb(100, 0, 127);
+  }
+  
+  p {
+    /* hsl example: */
+    color: hsl(15, 82%, 56%);
+  }
+
+  img {
+    height: auto;
+    width: 500px;
+  }
+
+  div {
+    color: white;
+    background-color: black;
+  }
+  
+  p {
+    color: red;
+  }
+
+  .subsection {
+    color: blue;
+  }
+
+  .main .list {
+    color: red;
+  }
+
+  #subsection {
+    color: blue;
+  }
+  
+  /* rule 2 */
+  .main .list {
+    color: red;
+  }
+
+  /* rule 1 */
+#subsection {
+    background-color: yellow;
+    color: blue;
+  }
+  
+  /* rule 2 */
+  .main #subsection {
+   color: red;
+  }
+
+  /* rule 1 */
+.class.second-class {
+    font-size: 12px;
+  }
+  
+  /* rule 2 */
+  .class .second-class {
+    font-size: 24px;
+  }
+
+  /* rule 1 */
+.class.second-class {
+    font-size: 12px;
+  }
+  
+  /* rule 2 */
+  .class > .second-class {
+    font-size: 24px;
+  }
+
+  /* rule 1 */
+* {
+    color: black;
+  }
+  
+  /* rule 2 */
+  h1 {
+    color: orange;
+  }
+
+  #parent {
+    color: red;
+  }
+  
+  .child {
+    color: blue;
+  }
+
+  .alert {
+    color: red;
+  }
+  
+  .warning {
+    color: yellow;
+  }

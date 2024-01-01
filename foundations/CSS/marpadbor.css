@@ -1,0 +1,30 @@
+* {
+    border: 2px solid red;
+    margin: 10px;
+    padding: 10px;
+}
+
+div {
+    border: none !important;
+}
+
+p,
+ul {
+  border: 2px solid rebeccapurple;
+  padding: .5em;
+}
+
+.block,
+li {
+  border: 2px solid blue;
+  padding: .5em;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+.block {
+  display: block;
+}
